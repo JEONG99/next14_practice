@@ -24,7 +24,7 @@ export default function Movie({ id, title, poster_path }: IMovieProps) {
         className="max-w-full min-h-full rounded-lg transition-opacity duration-300 opacity-70 hover:opacity-100"
         onClick={onClickPoster}
       />
-      <Link href={`/movies/${id}`} className="text-center">
+      <Link prefetch href={`/movies/${id}`} className="text-center">
         {title}
       </Link>
     </div>
