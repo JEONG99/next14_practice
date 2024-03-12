@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        "1fr-auto": "1fr auto",
+      },
+      gridTemplateColumns: {
+        "repeat-5": "repeat(5, 1fr)",
+      },
+    },
   },
   plugins: [],
 };
