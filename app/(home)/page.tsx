@@ -1,12 +1,11 @@
 import { Metadata } from "next";
 
 import Movie from "@/components/movie";
+import { API_URL } from "@/app/constants";
 
 export const metadata: Metadata = {
   title: "Home",
 };
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 interface IMovie {
   adult: boolean;
