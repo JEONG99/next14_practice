@@ -15,6 +15,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         "repeat-5": "repeat(5, 1fr)",
+        "1fr-2fr": "1fr 2fr",
       },
     },
   },
